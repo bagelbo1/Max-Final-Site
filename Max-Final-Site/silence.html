@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/silence.css">
+</head>
+
+<body>
+<p class="M3">Silence is about rediscovering...</p>
+<p class="M1">through pausing...</p>
+<p class="M1">the things that bring us joy.</p>
+<p class=M7>.   .   .   .   .   .   .   .   .   .   .   .</p>
+<p><span class="Q Q1">asdfeaxa</span>"There<span class="Q Q2">asdfasdf</span> is<span class="Q Q3">asdfeasdf</span> a<span class="Q Q4">aefafdsdfa</span> love<span class="Q Q5">asdfefcada</span> no<span class="Q Q6">adasfeea</span> one<span class="Q Q7">dvfgghjfghj</span> remembers"<span class="Q Q8">asdfadfasdc</span></p>
+<p>-Jon<span class="Q Q9">adsfads</span> Fosse.<span class="Q Q10">bgsbvfdx</span></p>
+
+<p class="M3">What did he mean by that?</p>
+<p class="M3">An invisible love that lies dormant?</p>
+<p class="M3">Could it be he was writing about silence?</p>
+<p>.   .   .   .   .   .   .   .   .   .   .   .</p>
+<p class="PS4">...or is he referring to PizzaSoup&#8482;</p>
+<p class="M3">Slowly scroll down until you see no text.</p>
+<p class="M4">Stay there for as long as you want.</p>
+<p class="M5">Then move on.</p>
+<p class="M4">We humans are worse at concentrating than a goldfish.</p>
+<p class="M4">Humans today lose their concentration after eight seconds.</p>
+<p class="M4">In the year 2000 it was twelve seconds.</p>
+<p class="M4">While the goldfish averaged nine.</p>
+<p>.   .   .   .   .   .   .   .   .   .   .   .</p>
+<p class="M3 AS AS1">It is more fulfilling to <span class="AS AS1s">anticipate and seek,</span></p>
+<p class="AS AS2">to wander in circles,</p>
+<p class="AS AS3">than to simply value and appreciate the fact that you have</p>
+<p class="AS AS4">fulfilled your desires.</p>
+<p class="M2">We are not born to be satisfied.</p>
+<p class="PS2">...That is the job of PizzaSoup&#8482;.</p>
+<p class="M3">A different chemical in the brain,</p>
+<p>opioid,</p>
+<p>is supposed to create that feeling of happiness once you've</p>
+<p>achieved your goals.</p>
+<p class="M3">unfortunately...</p>
+<p class="M3">domapine is stronger than opioid.</p>
+<p class="PS">...and PizzaSoup&#8482; is stronger than dopamine.</p>
+<p class="M3">So even if you've attained all you ever dreamed of</p>
+<p class=PS3>...you've never really lived.</p>
+<img src="pizzasoup.jpg"
+	width="400"
+	class="centre"
+	>
+<p class="M3">you will continue to do the same thing.</p>
+<p class="M3">Hence</p>
+<img src="hagi.jpg"
+	width="400"
+	class="centre1">
+<p class="M6">the dopamine loop.</p>
+<p>.   .   .   .   .   .   .   .   .   .   .   .</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+
+
+	$(".AS1s").hover(function(){
+	$(".AS2").css({"opacity":1})
+	 })
+
+		$(".AS2").hover(function(){
+	$(".AS3").css({"opacity":1})
+		
+	 })
+		$(".AS3").hover(function(){
+	$(".AS4").css({"opacity":1})
+		
+	 })
+
+		$(".PS").hover(function(){
+	$(".PS").css({"opacity":1})
+		
+	 })
+
+		$(".PS2").hover(function(){
+	$(".PS2").css({"opacity":1})
+		
+	 })
+		$(".PS3").hover(function(){
+	$(".PS3, .centre").css({"opacity":1})
+		
+	 })
+
+		$(".PS4").hover(function(){
+	$(".PS4").css({"opacity":1})
+		
+	 })
+
+ 		$(".Q1").hover(function(){
+  $(".Q1").css("opacity", "0");
+});
+
+		$(".Q2").hover(function(){
+  $(".Q2").css("opacity", "0");
+});
+
+		$(".Q3").hover(function(){
+  $(".Q3").css("opacity", "0");
+});
+
+		$(".Q4").hover(function(){
+  $(".Q4").css("opacity", "0");
+});
+
+		$(".Q5").hover(function(){
+  $(".Q5").css("opacity", "0");
+});
+
+		$(".Q6").hover(function(){
+  $(".Q6").css("opacity", "0");
+});
+
+		$(".Q7").hover(function(){
+  $(".Q7").css("opacity", "0");
+});
+
+		$(".Q8").hover(function(){
+  $(".Q8").css("opacity", "0");
+});
+
+		$(".Q9").hover(function(){
+  $(".Q9").css("opacity", "0");
+});
+
+		$(".Q10").hover(function(){
+  $(".Q10").css("opacity", "0");
+});
+
+			$(".centre1").hover(function(){
+  $(".centre1").css("opacity", "1");
+});
+
+//source reference goes here: https://stackoverflow.com/questions/16993693/continuous-looping-page-not-infinite-scroll
+             $(document).scroll(function(){
+       		     if(document.documentElement.clientHeight + $(document).scrollTop() >= document.body.offsetHeight ){
+
+       		     $(document).scrollTop(0);
+       		      $(".Q").css("opacity", "1");
+       		      $(".AS2, .AS3, .AS4").css("opacity", "0");
+       		      $(".PS, .PS2, .PS3").css("opacity", "0");
+       		      $(".centre, .centre1").css("opacity", "0");
+       		      $(".PS4").css("opacity", "0");
+       		 }
+             });
+</script>
+
+
+</body>
+</html>
